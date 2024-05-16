@@ -25,7 +25,8 @@ body {
 }
 
 #img {
-    max-width: 1000px;
+    max-width: 80%;
+    height: auto;
     margin: 0px auto;
     display: block;
 }
@@ -35,10 +36,7 @@ body {
     padding: 15px;
 }
 
-#tribute-info {
-    width: 30%;
-    margin: auto;
-}
+
 
 #tribute-info p {
     font-style: italic;
@@ -51,6 +49,9 @@ body {
 ul li {
     margin: 15px;
     color: #333333;
+}
+span {
+    font-weight: bold;
 }
 
 footer h2 {
