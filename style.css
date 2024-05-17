@@ -2,7 +2,7 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
-    background-color: #D8AE7E;
+    background-color: #eeeeee;
 }
 #main {
     margin: 20px 5px;
@@ -45,6 +45,10 @@ body {
 #tribute-info > h3 {
     text-align: center;
 }
+ul {
+    width: 40%;
+    margin: auto;
+}
 
 ul li {
     margin: 15px;
@@ -56,4 +60,15 @@ span {
 
 footer h2 {
     text-align: center;
+}
+
+@media (max-width: 900px){
+    ul {
+        width: 100%;
+        margin: auto;
+    }
+
+    ul li {
+        font-size: 15px;
+    }
 }
